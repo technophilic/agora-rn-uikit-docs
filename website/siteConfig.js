@@ -30,7 +30,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'installing', label: 'Docs'},
-    {doc: 'api', label: 'API Reference'},
+    {doc: 'api/index', label: 'API Reference'},
     {href: "https://github.com/AgoraIO-Community/ReactNative-UIKit", label: "GitHub" },
   ],
 

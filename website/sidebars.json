@@ -1,6 +1,110 @@
 {
   "docs": {
-    "Getting started": ["installing","basic"],
-    "Advanced Guides":[]
+    "Getting started": [
+      "installing",
+      "basic",
+      {
+        "href": "https://github.com",
+        "label": "Github"
+      }
+    ],
+    "API":[
+      "api/classes/_agoraview_native_.agoraview",
+      "api/classes/_rtcengine_native_.rtcengine"
+    ]
+  },
+  "rn-agora-docs": {
+    "Introduction": [
+      "api/index",
+      "api/globals"
+    ],
+    "External Modules": [
+      "api/modules/_agoraview_native_",
+      "api/classes/_agoraview_native_.agoraview",
+      "api/modules/_rtcengine_native_",
+      "api/classes/_rtcengine_native_.rtcengine",
+      "api/modules/_index_",
+      "api/modules/_types_",
+      "api/enums/_types_.agoraviewmode",
+      "api/enums/_types_.audiochannelstereo",
+      "api/enums/_types_.audiocodecprofile",
+      "api/enums/_types_.audiosamplerate",
+      "api/enums/_types_.videocodecprofile",
+      "api/interfaces/_types_.agorauserinfo",
+      "api/interfaces/_types_.agoraviewprops",
+      "api/interfaces/_types_.audioframeoption",
+      "api/interfaces/_types_.audiomixingoption",
+      "api/interfaces/_types_.audiorecordingoption",
+      "api/interfaces/_types_.backgroundimage",
+      "api/interfaces/_types_.beautyoption",
+      "api/interfaces/_types_.cameracapturerconfiguration",
+      "api/interfaces/_types_.channelmediaconfiguration",
+      "api/interfaces/_types_.channelmediainfo",
+      "api/interfaces/_types_.color",
+      "api/interfaces/_types_.datastreamoption",
+      "api/interfaces/_types_.defaultvideostreamoption",
+      "api/interfaces/_types_.imageoption",
+      "api/interfaces/_types_.injectstreamoption",
+      "api/interfaces/_types_.lastmileprobeconfig",
+      "api/interfaces/_types_.livetranscodingoption",
+      "api/interfaces/_types_.mixedaudioframeoption",
+      "api/interfaces/_types_.option",
+      "api/interfaces/_types_.playeffectoption",
+      "api/interfaces/_types_.positionoption",
+      "api/interfaces/_types_.publishstreamoption",
+      "api/interfaces/_types_.publisherconfig",
+      "api/interfaces/_types_.removeinjectstreamoption",
+      "api/interfaces/_types_.removepublishstreamoption",
+      "api/interfaces/_types_.size",
+      "api/interfaces/_types_.transcodinguser",
+      "api/interfaces/_types_.videoencoderconfig",
+      "api/interfaces/_types_.videooption",
+      "api/interfaces/_types_.videostreamoption",
+      "api/interfaces/_types_.voicedecorator"
+    ],
+    "Classes": [
+      "api/classes/_agoraview_native_.agoraview",
+      "api/classes/_rtcengine_native_.rtcengine"
+    ],
+    "Enums": [
+      "api/enums/_types_.agoraviewmode",
+      "api/enums/_types_.audiochannelstereo",
+      "api/enums/_types_.audiocodecprofile",
+      "api/enums/_types_.audiosamplerate",
+      "api/enums/_types_.videocodecprofile"
+    ],
+    "Interfaces": [
+      "api/interfaces/_types_.agorauserinfo",
+      "api/interfaces/_types_.agoraviewprops",
+      "api/interfaces/_types_.audioframeoption",
+      "api/interfaces/_types_.audiomixingoption",
+      "api/interfaces/_types_.audiorecordingoption",
+      "api/interfaces/_types_.backgroundimage",
+      "api/interfaces/_types_.beautyoption",
+      "api/interfaces/_types_.cameracapturerconfiguration",
+      "api/interfaces/_types_.channelmediaconfiguration",
+      "api/interfaces/_types_.channelmediainfo",
+      "api/interfaces/_types_.color",
+      "api/interfaces/_types_.datastreamoption",
+      "api/interfaces/_types_.defaultvideostreamoption",
+      "api/interfaces/_types_.imageoption",
+      "api/interfaces/_types_.injectstreamoption",
+      "api/interfaces/_types_.lastmileprobeconfig",
+      "api/interfaces/_types_.livetranscodingoption",
+      "api/interfaces/_types_.mixedaudioframeoption",
+      "api/interfaces/_types_.option",
+      "api/interfaces/_types_.playeffectoption",
+      "api/interfaces/_types_.positionoption",
+      "api/interfaces/_types_.publishstreamoption",
+      "api/interfaces/_types_.publisherconfig",
+      "api/interfaces/_types_.removeinjectstreamoption",
+      "api/interfaces/_types_.removepublishstreamoption",
+      "api/interfaces/_types_.size",
+      "api/interfaces/_types_.transcodinguser",
+      "api/interfaces/_types_.videoencoderconfig",
+      "api/interfaces/_types_.videooption",
+      "api/interfaces/_types_.videostreamoption",
+      "api/interfaces/_types_.voicedecorator"
+    ]
   }
 }

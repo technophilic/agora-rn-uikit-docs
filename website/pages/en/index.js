@@ -29,12 +29,6 @@ class HomeSplash extends React.Component {
       </div>
     );
 
-    const Logo = props => (
-      <div className="projectLogo">
-        <img src={props.img_src} alt="Project Logo" />
-      </div>
-    );
-
     const ProjectTitle = props => (
       <h2 className="projectTitle">
         {props.title}
@@ -60,12 +54,11 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        {/* <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} /> */}
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
             <Button href={docUrl('installing')}>Getting Started</Button>
-            <Button href={docUrl('api')}>API Reference</Button>
+            <Button href={docUrl('api/index')}>API Reference</Button>
             <Button target={'_blank'} href={'https://github.com/AgoraIO-Community/ReactNative-UIKit'}>Github</Button>
           </PromoSection>
         </div>
