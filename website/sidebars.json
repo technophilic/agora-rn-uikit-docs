@@ -3,6 +3,8 @@
     "Getting started": [
       "installing",
       "basic",
+      "customizing",
+      "propslist",
       {
         "href": "https://github.com",
         "label": "Github"
